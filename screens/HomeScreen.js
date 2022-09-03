@@ -49,6 +49,7 @@ const HomeScreen = () => {
                     enablePoweredByContainer={false}
                     minLength={2}
                     query={{
+                        //GOOGLE_MAPS_APIKEY
                         key: GOOGLE_MAPS_APIKEY,
                         language: 'pt'
                     }}

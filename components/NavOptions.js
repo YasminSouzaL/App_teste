@@ -10,13 +10,7 @@ const data = [
         title: "Get a ride",
         image: "https://links.papareact.com/3pn",
         screen: "MapScreen",
-    },
-    {
-        id: "465",
-        title: "Order food",
-        image: "https://links.papareact.com/28w",
-        screen: "EatsScreen",
-    },
+    }
 ];
 
 const NavOptions = () => {
@@ -30,7 +24,7 @@ const NavOptions = () => {
             renderItem={({ item }) => (
                 <TouchableOpacity
                     onPress={() => navigation.navigate(item.screen)} 
-                    style={tw`p-2 pl-6 pb-8 pt-4 bg-gray-200 m-2 w-40`}
+                    style={tw`p-2 pl-6 pb-8 pt-3 bg-gray-200 m-1 w-40`}
                 >
                     <View>
                         <Image
@@ -39,7 +33,7 @@ const NavOptions = () => {
                         />
                         <Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
                         <Icon
-                            style={tw`p-2 bg-black rounded-full w-10 mt-4`}
+                            style={tw`p-2 bg-green-600 rounded-full w-10 mt-4`}
                             name="arrowright"
                             color="white" 
                             type='antdesign'

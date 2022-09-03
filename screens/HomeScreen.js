@@ -15,12 +15,12 @@ const HomeScreen = () => {
             <View style={tw`p-5`}>
                 <Image
                     style={{
-                        width: 100, 
+                        width: 200, 
                         height:100, 
                         resizeMode: 'contain',
                     }} 
                     source={{
-                        uri: "https://links.papareact.com/gzs",
+                        uri: "https://profomar.files.wordpress.com/2012/06/if.jpg",
                     }}
                 />
 

@@ -7,13 +7,13 @@ const data = [
     {
         id: "123",
         icon: "home",
-        location: "Home",
+        location: "Terminal",
         destination: "Avenida John Boyd Dunlop, Campinas, Brasil"
     },
     {
         id: "456",
         icon: "briefcase",
-        location: "Work",
+        location: "IF",
         destination: "R. Heitor Lacerda Guedes, Campinas, Brasil",
     },
 ];

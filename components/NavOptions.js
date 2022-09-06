@@ -37,7 +37,7 @@ const NavOptions = () => {
                         />
                         <Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
                         <Icon
-                            style={tw`p-2 bg-green-600 rounded-full w-10 mt-4`}
+                            style={tw`p-2 bg-green-600 rounded-full	w-10 mt-4`}
                             name="arrowright"
                             color="white" 
                             type='antdesign'

@@ -6,13 +6,18 @@ import NavigateCard from '../components/NavigateCard';
 import RideOptionsCard from '../components/RideOptionsCard';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Icon } from '@rneui/base';
+import { useNavigation } from '@react-navigation/native';
 
 const MapScreen = () => {
     const Stack = createStackNavigator();
+    const navigation = useNavigation();
 
     return (
         <View>
-            <TouchableOpacity style={tw ``}>
+            <TouchableOpacity
+                onPress={() => navigation.navigate("HomeScreen")} 
+                style={tw`bg-gray-100 absolute top-16 left-8 z-50 p-3 rounded-full shandow-lg`}
+            >
                 <Icon name="menu" />
             </TouchableOpacity>
             <View style={styles.div}>

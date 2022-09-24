@@ -3,6 +3,7 @@ import { KeyboardAvoidingView, Platform } from 'react-native';
 import { Provider } from 'react-redux';
 import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
+import Cadastro from './screens';
 import { store } from './store';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import 'react-native-gesture-handler';
@@ -22,6 +23,9 @@ export default function App() {
             keyboardVerticalOffset={Platform.OS === "ios" ? -64 : 0}
           >
             <Stack.Navigator>
+              <Stack.Screen 
+              
+              />
               <Stack.Screen 
                 name='HomeScreen' 
                 component={HomeScreen}

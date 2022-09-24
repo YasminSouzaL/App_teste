@@ -1,10 +1,10 @@
 import React from 'react';
 import { Image, Text } from 'react-native';
 
-import { Container, Button, ButtonText, Title, SubTitle, PickerButton} from '../../styles';
+import { Container, Button, ButtonText, Title, SubTitle, PickerButton} from '../styles';
 
-import car from '../../../assets/car.jpg';
-import hand from '../../../assets/harder.jpg';
+import car from '../../assets/car.jpg';
+import hand from '../../assets/harder.jpg';
 const Type = () => {
     return(
         <Container padding={30} justify="flex-start">

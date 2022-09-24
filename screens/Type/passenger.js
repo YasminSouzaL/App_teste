@@ -3,7 +3,7 @@ import { Keyboard } from 'react-native';
 import { CreditCardInput} from "react-native-credit-card-input";
 
 import { Container, Button, ButtonText,
-     Title, SubTitle, Spacer,} from '../../styles';
+     Title, SubTitle, Spacer,} from '../styles';
 
 
 const Payment = () => {

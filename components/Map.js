@@ -39,7 +39,7 @@ const Map = () => {
                     destination={destination.description}
                     apikey={GOOGLE_MAPS_APIKEY}
                     strokeWidth={3}
-                    strokeColor="black"
+                    strokeColor="hotpink"
                 />
             )}
 
